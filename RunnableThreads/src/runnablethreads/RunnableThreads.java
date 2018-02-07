@@ -6,7 +6,6 @@ package runnablethreads;
  */
 
 class Runner1 implements Runnable{
-    
     @Override
     public void run() {
         for(int i = 0; i<10; i++){
@@ -16,7 +15,6 @@ class Runner1 implements Runnable{
   }
   
   class Runner2 implements Runnable{
-      
     @Override
     public void run() {
         for(int i = 0; i<10; i++){
